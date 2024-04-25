@@ -191,12 +191,19 @@ if(isset($_SESSION['login'])){
       <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com">
       <label for="floatingInput">Email address</label>
     </div>
+    <br>
     <div class="form-floating">
       <input type="password" name="password" class="form-control" id="floatingPassword" placeholder="Password">
       <label for="floatingPassword">Password</label>
     </div>
+    <br>
+    <div class="form-floating">
+      <input name="umur" class="form-control" placeholder="umur">
+      <label for="floatingInput">Umur</label>
+    </div>
+    <br>
     <button class="btn btn-primary w-100 py-2" type="submit">Sign in</button>
-    <p class="mt-5 mb-3 text-body-secondary">&copy; 2017–2024</p>
+    <p class="mt-5 mb-3 text-body-secondary">&copy; 2017-2024</p>
   </form>
 </main>
 <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
